@@ -1,3 +1,21 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e6e4e4;
+    color: #333;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.logo{
+    position: relative;
+    left: 15px;
+    top:10px;
+    width: 6em;
+    height: 1em;
+}
+
+/*navbar menu */
 .navbar{
     position: fixed;
     width: 100%;
@@ -8,6 +26,11 @@
     width: 100%; 
     overflow: hidden;
     border: 1px solid black;
+}
+
+.navbar p{
+    font-size: 0.8em;
+    font-weight: 800;
 }
 
 .navbar a{
@@ -21,6 +44,8 @@
     text-decoration: underline;
 }
 .navbar ul{
+    position: relative;
+    top: -22px;
     display:flex;
     justify-content: flex-end;
     list-style-type: none;
@@ -29,18 +54,21 @@
     color: white;
     border: 0;
     position: relative;
-    top: -29px;
+    top: 0px;
+    margin-bottom: -46px;
     background-color: #e60012;
 }
 
+/*Menu de gauche */
 .aside-menu{
     position: fixed;
     height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #e60012;
-    top: 89px;
+    top: 91px;
 }
+
 .aside-menu a{
     position:relative;
     margin-left: 10px;
@@ -66,6 +94,10 @@
 .aside-menu button:hover{
     background-color: #bf0010;
 }
+/*svg img*/
+.mainN svg{
+    height: 1em;
+}
 
 .section{
     width: 800px;
@@ -74,27 +106,34 @@
 
 .aside-news{
     position: absolute;
-    border: none;
     top: 90px;
     right: 0;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    background-color: #ffffff;
-    flex-direction: column;
     align-items: flex-end;
     width: 400px;
-    border: 2px  solid rgb(211, 211, 211);
     z-index: -10;
 }
 
-.aside-news ul{
+.aside-news ul li{
     list-style-type: none;
+    margin-top: -11px !important;
+    background-color: white;
+}
+.aside-news li:first-child{
+    margin-top: 6px !important;
 }
 
 .aside-news ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+.aside-news ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .page-title{
@@ -103,6 +142,22 @@
     top: -73px;
     left: 61px;
     font-weight: bold;
+}
+
+.page-data{
+    position: relative;
+    top: -86px;
+    left: 60px;
+    color: darkgray;
+    font-size: 13px;
+}
+
+.page-description{
+    position: relative;
+    width: 220px;
+    top:-80px;
+    left: 61px;
+
 }
 
 
