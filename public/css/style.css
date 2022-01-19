@@ -1,0 +1,16 @@
+.navbar{
+    padding-top: 18px;
+    background-color: #e60012;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.navbar button{
+    border: 0;
+    background-color: #e60012;
+}
