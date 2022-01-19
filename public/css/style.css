@@ -4,12 +4,23 @@
     margin-bottom: -16px;
 }
 
+.navbar a{
+    position:relative;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: white;
+    text-decoration: underline;
+}
 .navbar ul{
     display:flex;
     justify-content: flex-end;
     list-style-type: none;
 }
 .navbar button{
+    color: white;
     border: 0;
     position: relative;
     top: -29px;
@@ -23,7 +34,16 @@
     flex-direction: column;
     background-color: #e60012;
 }
-
+.aside-menu a{
+    position:relative;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.aside-menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
 .aside-menu li{
     list-style-type: none;
 }
