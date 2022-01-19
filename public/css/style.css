@@ -85,6 +85,7 @@
     align-items: flex-end;
     width: 400px;
     border: 2px  solid rgb(211, 211, 211);
+    z-index: -10;
 }
 
 .aside-news ul{
@@ -94,6 +95,14 @@
 .aside-news ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+.page-title{
+    position: relative;
+    width: 194px;
+    top: -73px;
+    left: 61px;
+    font-weight: bold;
 }
 
 
