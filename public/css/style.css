@@ -1,8 +1,7 @@
 .navbar{
     padding-top: 18px;
     background-color: #e60012;
-    border-top: 1px solid rgb(151, 195, 231);
-    border-bottom: 1px solid rgb(151, 195, 231);
+    margin-bottom: -16px;
 }
 
 .navbar ul{
@@ -12,5 +11,27 @@
 }
 .navbar button{
     border: 0;
+    position: relative;
+    top: -29px;
     background-color: #e60012;
+}
+
+.aside-menu{
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e60012;
+}
+
+.aside-menu li{
+    list-style-type: none;
+}
+
+.aside-menu button{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #e60012;
+    color: white;
 }
