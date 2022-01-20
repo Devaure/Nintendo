@@ -87,18 +87,19 @@ body{
     width: 80px !important;
     height: 77px;
     width: 100%;
-    border: 1px solid #000000;
     background-color: #e60012;
     color: white;
+    padding-bottom: 11px;
 }
-.corner-aside:before{
+/* .corner-aside:before{
     content: ' ';
-    position: absolute;
-    top: 0; right: 0;
+    position: relative;
+    top: 10%;
+    right: -73%;
     border-top: 10px solid #000000;
     border-left: 10px solid #e60012;
     width: 0;
-}
+} */
 
 .aside-menu button:hover{
     background-color: #bf0010;
@@ -148,6 +149,11 @@ body{
   left: 10px;
 }
 
+.aside-news img{
+    width: 50px;
+    height: auto;
+}
+
 .aside-news ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -158,16 +164,17 @@ body{
     background-color: white;
     margin-bottom: 4px;
     overflow: hidden;
-    height: 172px;
+    height: 126px;
 }
 
 .page-title{
     position: relative;
-    width: 310px;
-    top: -73px;
-    left: 61px;
+    width: 285px;
+    top: -70px;
+    left: 59px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
+    text-align: justify;
 }
 .concours{
     position: relative;
@@ -207,7 +214,7 @@ body{
 }
 .container{
     display: grid;
-    padding: 6em;
+    padding: 5.2em;
     grid-template-columns: repeat(6, 1fr);
     z-index: -100;
     width: 69%;
@@ -229,5 +236,18 @@ body{
 
 .for{
     grid-column: span 4;
+}
+
+.eight{
+    grid-column:span 4;
+}
+
+.twelve{
+    grid-row: span 2;
+}
+
+.thirteen{
+    grid-column: span 6;
+    grid-row: span 2;
 }
 
