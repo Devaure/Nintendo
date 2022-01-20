@@ -7,6 +7,9 @@ body{
     font-size: 1rem;
     line-height: 1.5;
 }
+html{
+    overflow-x: hidden;
+}
 .logo{
     position: relative;
     left: 25px;
@@ -217,7 +220,7 @@ body{
     padding: 5.2em;
     grid-template-columns: repeat(6, 1fr);
     z-index: -100;
-    width: 69%;
+    width: 65%;
 }
 
 .container img{
