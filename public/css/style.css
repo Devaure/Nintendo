@@ -1,0 +1,359 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e6e4e4;
+    color: #333;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.logo{
+    position: relative;
+    left: 25px;
+    top: 22px;
+    width: 6em;
+    height: 1em;
+}
+
+/*****************************************************************************navbar menu */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding-top: 0px;
+    background-color: #e60012;
+    margin-bottom: -16px;
+    top: 0; 
+    width: 100%; 
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.navbar p{
+    font-size: 0.6em;
+    font-weight: 800;
+}
+
+.navbar a{
+    position:relative;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.navbar ul{
+    position: relative;
+    top: -22px;
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.navbar button{
+    color: white;
+    border: 0;
+    position: relative;
+    top: 0px;
+    margin-bottom: -46px;
+    background-color: #e60012;
+}
+
+/**********************************************************************************Menu de gauche */
+.aside-menu{
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e60012;
+    top: 72px;
+}
+
+.aside-menu a{
+    position:relative;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.aside-menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.aside-menu li{
+    list-style-type: none;
+}
+
+.aside-menu button{
+    width: 80px !important;
+    height: 77px;
+    width: 100%;
+    background-color: #e60012;
+    color: white;
+    padding-bottom: 11px;
+}
+/* .corner-aside:before{
+    content: ' ';
+    position: relative;
+    top: 10%;
+    right: -73%;
+    border-top: 10px solid #000000;
+    border-left: 10px solid #e60012;
+    width: 0;
+} */
+
+.aside-menu button:hover{
+    background-color: #bf0010;
+}
+
+.aside-menu p{
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+/******************************************************************************svg img*/
+.mainN svg{
+    height: 2em;
+}
+
+
+.aside-news{
+    position: absolute;
+    top: 65px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 400px;
+    z-index: -10;
+}
+/***********************************************************************Titre dernières news*/
+.news {
+    position: relative;
+    height: 53px !important;
+    margin-bottom: 4px !important;
+}
+.bordure{
+    margin-left: 5px;
+    border-left: 4px solid #f4f4f4;
+}
+
+.news p{
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  left: 10px;
+}
+
+.aside-news img{
+    width: 50px;
+    height: auto;
+}
+
+.aside-news ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.aside-news ul li{
+    list-style-type: none;
+    background-color: white;
+    margin-bottom: 4px;
+    overflow: hidden;
+    height: 126px;
+}
+
+.page-title{
+    position: relative;
+    width: 285px;
+    top: -70px;
+    left: 59px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+}
+.concours{
+    position: relative;
+    width: 310px;
+    top: -55px;
+    left: 61px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.page-data{
+    position: relative;
+    top: -86px;
+    left: 60px;
+    color: darkgray;
+    font-size: 13px;
+}
+.page-data-border{
+    position: relative;
+    top: -70px;
+    left: 60px;
+    color: darkgray;
+    font-size: 13px;
+}
+
+.page-description{
+    position: relative;
+    width: 300px;
+    top: -80px;
+    left: 61px;
+    font-size: 14px;
+}
+
+/*Grid section *******************************************************************************/
+.section{
+    display: flex;
+}
+.container{
+    display: grid;
+    padding: 5.2em;
+    grid-template-columns: repeat(6, 1fr);
+    z-index: -100;
+    width: 69%;
+}
+
+.container img{
+    width:100%;
+}
+
+.img{
+    grid-column: span 2;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.one{
+    grid-row: span 2;
+}
+
+.for{
+    grid-column: span 4;
+}
+
+.eight{
+    grid-column:span 4;
+}
+
+.twelve{
+    grid-row: span 2;
+}
+
+.thirteen{
+    grid-column: span 6;
+    grid-row: span 2;
+}
+
+/**************************************************************************Partager sur : Facebook twitter*/
+.facebook{
+    position: relative;
+    width: 800px;
+    left: 100px;
+    top: -58px;
+    height: 66px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.facebook span{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 2em;
+}
+
+.imgFacebook, .imgTwitter{
+    position: relative;
+    top: 8px;
+    left: 109px;
+    margin-left: 23px;
+    width: auto !important;
+    height: 38px;
+}
+.log-nintendo{
+    position: relative;
+    background-color: #e60012;
+    width: 803px;
+    height: 68px;
+    top: 2px;
+    left: 0px;
+    border-radius: 5px;
+}
+.linkFooter{
+    position: relative;
+    background-color: #bf0010;
+    width: 803px;
+    height: 216px;
+    top: -15px;
+    left: 100px;
+    border-radius: 5px;
+}
+
+.linkFooter span{
+    position: relative;
+    top: -11px;
+    left: 20px;
+}
+
+.linkFooter span{
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    font-size: 13px;
+}
+
+.linkFooter a{
+    text-decoration: none;
+    color: white;
+}
+.linkFooter a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.confidentialite{
+    text-decoration: none;
+    color: white;
+    margin-left: 36px;
+    font-size: 14px;
+}
+
+.confidentialite:hover{
+    text-decoration: underline;
+}
+
+/*Le select du footer*/
+select option{
+    background-color: #bf0010;
+}
+
+select{
+    position: relative;
+    top: -49px;
+    height: 35px;
+    left: 157px;
+    background-color: #bf0010;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
+select:hover{
+    text-decoration: underline;
+}
+
+#copyright{
+    
+    position: relative;
+    top: -14px;
+    left: 705px;
+    color: white;
+    font-size: 12px;
+
+}
